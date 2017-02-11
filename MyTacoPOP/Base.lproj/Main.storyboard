@@ -38,12 +38,36 @@
                                     <constraint firstAttribute="height" constant="80" id="opV-Iy-6d5"/>
                                 </constraints>
                             </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="2PE-TK-hT3">
+                                <rect key="frame" x="16" y="100" width="288" height="448"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fnN-Td-w8o">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="sIO-Ah-anP">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="2PE-TK-hT3" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9ka-Fp-qht"/>
                             <constraint firstItem="cHV-Fl-AEI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Dek-IQ-qgh"/>
                             <constraint firstItem="cHV-Fl-AEI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ImF-UH-q0t"/>
                             <constraint firstAttribute="trailing" secondItem="cHV-Fl-AEI" secondAttribute="trailing" id="VxC-Pn-cwt"/>
+                            <constraint firstItem="2PE-TK-hT3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fFo-Q4-r5S"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2PE-TK-hT3" secondAttribute="bottom" constant="20" id="tTc-C6-2MM"/>
+                            <constraint firstItem="2PE-TK-hT3" firstAttribute="top" secondItem="cHV-Fl-AEI" secondAttribute="bottom" constant="20" id="vZv-kj-HuI"/>
                         </constraints>
                     </view>
                     <connections>
