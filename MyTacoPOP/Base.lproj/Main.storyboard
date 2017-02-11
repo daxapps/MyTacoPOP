@@ -71,6 +71,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="collectionView" destination="2PE-TK-hT3" id="Dcu-pj-nam"/>
                         <outlet property="headerView" destination="cHV-Fl-AEI" id="NvG-1R-Wff"/>
                     </connections>
                 </viewController>
