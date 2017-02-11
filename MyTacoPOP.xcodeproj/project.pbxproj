@@ -16,6 +16,7 @@
 		E0738E931E4F437500DB6C74 /* DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E921E4F437500DB6C74 /* DropShadow.swift */; };
 		E0738E951E4F44CE00DB6C74 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E941E4F44CE00DB6C74 /* HeaderView.swift */; };
 		E0738E971E4F469A00DB6C74 /* Taco.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E961E4F469A00DB6C74 /* Taco.swift */; };
+		E0738E991E4F4B2600DB6C74 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E981E4F4B2600DB6C74 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		E0738E921E4F437500DB6C74 /* DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropShadow.swift; sourceTree = "<group>"; };
 		E0738E941E4F44CE00DB6C74 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		E0738E961E4F469A00DB6C74 /* Taco.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Taco.swift; sourceTree = "<group>"; };
+		E0738E981E4F4B2600DB6C74 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				E0738E961E4F469A00DB6C74 /* Taco.swift */,
+				E0738E981E4F4B2600DB6C74 /* DataService.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				E0738E6B1E4F3CFB00DB6C74 /* AppDelegate.swift in Sources */,
 				E0738E931E4F437500DB6C74 /* DropShadow.swift in Sources */,
 				E0738E911E4F408300DB6C74 /* MainVC.swift in Sources */,
+				E0738E991E4F4B2600DB6C74 /* DataService.swift in Sources */,
 				E0738E971E4F469A00DB6C74 /* Taco.swift in Sources */,
 				E0738E951E4F44CE00DB6C74 /* HeaderView.swift in Sources */,
 			);
