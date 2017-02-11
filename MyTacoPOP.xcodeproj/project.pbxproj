@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E0738E6B1E4F3CFB00DB6C74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E6A1E4F3CFB00DB6C74 /* AppDelegate.swift */; };
-		E0738E6D1E4F3CFB00DB6C74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E6C1E4F3CFB00DB6C74 /* ViewController.swift */; };
 		E0738E701E4F3CFB00DB6C74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0738E6E1E4F3CFB00DB6C74 /* Main.storyboard */; };
 		E0738E721E4F3CFB00DB6C74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0738E711E4F3CFB00DB6C74 /* Assets.xcassets */; };
 		E0738E751E4F3CFB00DB6C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0738E731E4F3CFB00DB6C74 /* LaunchScreen.storyboard */; };
 		E0738E801E4F3CFB00DB6C74 /* MyTacoPOPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E7F1E4F3CFB00DB6C74 /* MyTacoPOPTests.swift */; };
+		E0738E911E4F408300DB6C74 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0738E901E4F408300DB6C74 /* MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* Begin PBXFileReference section */
 		E0738E671E4F3CFB00DB6C74 /* MyTacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0738E6A1E4F3CFB00DB6C74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0738E6C1E4F3CFB00DB6C74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0738E6F1E4F3CFB00DB6C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0738E711E4F3CFB00DB6C74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0738E741E4F3CFB00DB6C74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		E0738E7B1E4F3CFB00DB6C74 /* MyTacoPOPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTacoPOPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0738E7F1E4F3CFB00DB6C74 /* MyTacoPOPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTacoPOPTests.swift; sourceTree = "<group>"; };
 		E0738E811E4F3CFB00DB6C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0738E901E4F408300DB6C74 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +77,12 @@
 		E0738E691E4F3CFB00DB6C74 /* MyTacoPOP */ = {
 			isa = PBXGroup;
 			children = (
-				E0738E6A1E4F3CFB00DB6C74 /* AppDelegate.swift */,
-				E0738E6C1E4F3CFB00DB6C74 /* ViewController.swift */,
-				E0738E6E1E4F3CFB00DB6C74 /* Main.storyboard */,
-				E0738E711E4F3CFB00DB6C74 /* Assets.xcassets */,
-				E0738E731E4F3CFB00DB6C74 /* LaunchScreen.storyboard */,
-				E0738E761E4F3CFB00DB6C74 /* Info.plist */,
+				E0738E8E1E4F3F8A00DB6C74 /* Extensions */,
+				E0738E8D1E4F3F6A00DB6C74 /* Protocols */,
+				E0738E8C1E4F3F5D00DB6C74 /* Model */,
+				E0738E8B1E4F3F5400DB6C74 /* View */,
+				E0738E8A1E4F3F4600DB6C74 /* Controller */,
+				E0738E8F1E4F3FB500DB6C74 /* Resources */,
 			);
 			path = MyTacoPOP;
 			sourceTree = "<group>";
@@ -94,6 +94,54 @@
 				E0738E811E4F3CFB00DB6C74 /* Info.plist */,
 			);
 			path = MyTacoPOPTests;
+			sourceTree = "<group>";
+		};
+		E0738E8A1E4F3F4600DB6C74 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0738E6A1E4F3CFB00DB6C74 /* AppDelegate.swift */,
+				E0738E901E4F408300DB6C74 /* MainVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0738E8B1E4F3F5400DB6C74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0738E6E1E4F3CFB00DB6C74 /* Main.storyboard */,
+				E0738E731E4F3CFB00DB6C74 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E0738E8C1E4F3F5D00DB6C74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0738E8D1E4F3F6A00DB6C74 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		E0738E8E1E4F3F8A00DB6C74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E0738E8F1E4F3FB500DB6C74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E0738E711E4F3CFB00DB6C74 /* Assets.xcassets */,
+				E0738E761E4F3CFB00DB6C74 /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,8 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0738E6D1E4F3CFB00DB6C74 /* ViewController.swift in Sources */,
 				E0738E6B1E4F3CFB00DB6C74 /* AppDelegate.swift in Sources */,
+				E0738E911E4F408300DB6C74 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
