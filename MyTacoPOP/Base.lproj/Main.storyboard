@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHV-Fl-AEI">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cHV-Fl-AEI" customClass="HeaderView" customModule="MyTacoPOP" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Taco-POP" translatesAutoresizingMaskIntoConstraints="NO" id="X3f-K5-e0M">
@@ -46,6 +46,9 @@
                             <constraint firstAttribute="trailing" secondItem="cHV-Fl-AEI" secondAttribute="trailing" id="VxC-Pn-cwt"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="headerView" destination="cHV-Fl-AEI" id="NvG-1R-Wff"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
